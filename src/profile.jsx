@@ -150,7 +150,7 @@ const ProfilePage = () => {
                   <span>2023/11 - 2024/05</span>
                 </p>
                 <p className="text-black dark:text-white text-sm">
-                  Intern in Bing Monitization Team
+                  intern in bing monitization team
                 </p>
               </div>
               <div className="space-y-1">
@@ -167,7 +167,7 @@ const ProfilePage = () => {
                   <span>2023/07 - 2023/10</span>
                 </p>
                 <p className="text-black dark:text-white text-sm">
-                  Intern in R&D Team, focus on frontend development.
+                  intern in development team, focus on frontend development.
                 </p>
               </div>
             </div>
