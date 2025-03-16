@@ -1,5 +1,5 @@
 // import ProfilePage from "./profile";
-import ProfilePage from "./Profile";
+import ProfilePage from "./profile";
 
 function App() {
   return (
