@@ -269,25 +269,25 @@ const ProfilePage = () => {
             <div className="flex gap-4">
               <a
                 href="https://github.com/XiaoLinZzz"
-                className="text-gray-600 dark:text-gray-400 text-sm relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
+                className="text-gray-600 dark:text-gray-200 text-sm relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
               >
                 github
               </a>
               <a
                 href="https://x.com/DayDayUpzzz"
-                className="text-gray-600 dark:text-gray-400 text-sm relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
+                className="text-gray-600 dark:text-gray-200 text-sm relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
               >
                 twitter
               </a>
               <a
                 href="https://www.linkedin.com/in/lujie-ma/"
-                className="text-gray-600 dark:text-gray-400 text-sm relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
+                className="text-gray-600 dark:text-gray-200 text-sm relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
               >
                 linkedin
               </a>
               <a
                 href="mailto:xiaolinzzz2002@gmail.com"
-                className="text-gray-600 dark:text-gray-400 text-sm relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
+                className="text-gray-600 dark:text-gray-200 text-sm relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
               >
                 email
               </a>
