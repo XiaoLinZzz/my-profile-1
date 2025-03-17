@@ -222,7 +222,7 @@ const ProfilePage = () => {
                 <div className="space-y-1">
                   <h3 className="font-bold text-sm text-black dark:text-white">
                     <a
-                      href="https://www.figma.com/design/E9fQR19iaDHAJdbizBM28Y/SC-A3?node-id=609-13231&t=GKw6zz1B9sjNmFda-1"
+                      href="https://my-profile-1-t9f3.vercel.app/"
                       className="relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
                     >
                       PetVerse
