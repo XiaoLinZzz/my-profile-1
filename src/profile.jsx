@@ -94,7 +94,8 @@ const ProfilePage = () => {
               <Briefcase className="w-3 h-3" /> Trip.com
             </p>
             <p className="text-black dark:text-white text-sm max-w-xl">
-              22 y.o. web developer.
+              22 y.o. web developer. passionate about frontend development, but
+              also intested in full stack development.
             </p>
           </header>
 
@@ -135,7 +136,10 @@ const ProfilePage = () => {
                 <span>2020/03 - 2022/12</span>
               </p>
               <p className="text-black dark:text-white text-sm">
-                major in computer science.
+                exchange student with fudan university in 2021.
+                <br />
+                australian institute for machine learning summer research
+                scholarship, 2022.
               </p>
             </div>
           </section>
