@@ -212,7 +212,7 @@ const ProfilePage = () => {
                 <div className="space-y-1">
                   <h3 className="font-bold text-sm text-black dark:text-white">
                     <a
-                      href="#"
+                      href="https://tailwind-landing-page-template-mocha-eta.vercel.app/"
                       className="relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
                     >
                       The Shadow Manager
