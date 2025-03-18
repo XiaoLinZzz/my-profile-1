@@ -180,7 +180,7 @@ const ProfilePage = () => {
                     <span>2023/11 - 2024/05</span>
                   </p>
                   <p className="text-black dark:text-white text-sm">
-                    intern in bing monitization team
+                    intern in bing.com
                   </p>
                 </div>
                 <div className="space-y-1">
