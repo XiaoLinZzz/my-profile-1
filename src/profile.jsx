@@ -266,7 +266,7 @@ const ProfilePage = () => {
           </div>
 
           {/* Links */}
-          <footer className="space-y-3">
+          <footer className="space-y-3 pb-5">
             <h2 className="text-lg font-bold text-gray-800 dark:text-white">
               links
             </h2>
