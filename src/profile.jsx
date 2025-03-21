@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { MapPin, Briefcase, Sun, Moon } from "lucide-react";
 
 const ProfilePage = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   // 优先使用 localStorage 中保存的主题设置，如果没有则使用系统主题
   const [isDark, setIsDark] = useState(() => {
     const savedTheme = localStorage.getItem("theme");
@@ -33,19 +32,6 @@ const ProfilePage = () => {
     return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);
 
-  // 添加鼠标移动跟踪
-  React.useEffect(() => {
-    const updateMousePosition = (e) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
-
-    window.addEventListener("mousemove", updateMousePosition);
-
-    return () => {
-      window.removeEventListener("mousemove", updateMousePosition);
-    };
-  }, []);
-
   // 手动切换主题
   const toggleTheme = () => {
     const newTheme = !isDark;
@@ -56,19 +42,10 @@ const ProfilePage = () => {
 
   return (
     <>
-      {/* 自定义光标 */}
-      <div
-        className="fixed w-4 h-4 bg-teal-500/50 rounded-full pointer-events-none transition-transform duration-100 ease-out z-50"
-        style={{
-          left: `${mousePosition.x}px`,
-          top: `${mousePosition.y}px`,
-          transform: "translate(-50%, -50%)",
-        }}
-      />
       <div
         className={`${
           isDark ? "dark bg-neutral-800" : "bg-white"
-        } min-h-screen [&_*::selection]:bg-teal-200 dark:[&_*::selection]:bg-teal-500/30 [&_*::selection]:text-black dark:[&_*::selection]:text-white cursor-none [&_a]:cursor-none [&_button]:cursor-none`}
+        } min-h-screen [&_*::selection]:bg-teal-200 dark:[&_*::selection]:bg-teal-500/30 [&_*::selection]:text-black dark:[&_*::selection]:text-white`}
       >
         <div className="max-w-xl mx-auto px-6 pt-8 space-y-4">
           {/* Theme Toggle Button - 右对齐 */}
