@@ -217,7 +217,7 @@ const ProfilePage = () => {
                 <div className="space-y-1">
                   <h3 className="font-bold text-sm text-black dark:text-white">
                     <a
-                      href="https://github.com/XiaoLinZzz/ChatterMap"
+                      href="https://xiaolinzzz.notion.site/Guide-to-Open-Chatrooms-3ee45b4f037b4c3f8cfd62a6fe875303?pvs=4"
                       className="relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 dark:after:w-full after:bg-teal-500 dark:after:bg-white after:transition-all hover:after:w-full hover:text-teal-600 dark:hover:text-teal-400"
                     >
                       ChatterMap
