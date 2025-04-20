@@ -142,6 +142,9 @@ const ProfilePage = () => {
                     <span>Software Engineer</span>
                     <span>2025/03 - present</span>
                   </p>
+                  <p className="text-black dark:text-white text-sm">
+                    vacation R&D department
+                  </p>
                 </div>
                 <div className="space-y-1">
                   <h3 className="font-bold text-sm text-black dark:text-white">
