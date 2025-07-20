@@ -71,7 +71,7 @@ const ProfilePage = () => {
               <Briefcase className="w-3 h-3" /> Trip.com
             </p>
             <p className="text-black dark:text-white text-sm max-w-xl">
-              22 y.o. web developer. passionate about frontend development, but
+              23 y.o. web developer. passionate about frontend development, but
               also intested in full stack development.
             </p>
           </header>
@@ -143,7 +143,7 @@ const ProfilePage = () => {
                     <span>2025/03 - present</span>
                   </p>
                   <p className="text-black dark:text-white text-sm">
-                    vacation R&D department
+                    vacation R&D department - attraction & tours team
                   </p>
                 </div>
                 <div className="space-y-1">
