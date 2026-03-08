@@ -71,9 +71,11 @@ const ProfilePage = () => {
               <Briefcase className="w-3 h-3" /> Trip.com
             </p>
             <p className="text-black dark:text-white text-sm max-w-xl">
-              23 y.o. web developer. father of my cat (小芝麻), passionate about
-              frontend development, but also intested in full stack development.
+              23 y.o. web developer. cat dad to 小芝麻 🐾. currently worked on frontend development, scaling into full-stack and building with mordern ai agent technologies.
             </p>
+            {/* <p className="text-black dark:text-white text-sm max-w-xl">
+              cat dad to 小芝麻 🐱
+            </p> */}
           </header>
 
           {/* Education */}
